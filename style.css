@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Red Rose", cursive;
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+/*----------container------------- */
+.container {
+  background-image:
+    linear-gradient(45deg,
+    rgba(1, 9, 36, 0.7),
+    rgba(1, 9, 36, 0.7)), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top ;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem;
+  
+}
+
+/* ------X----container--------X---- */
+
+
+/* ------------START------------- */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+section[aria-label="navbar"]
+{
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav.navbar
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.logo
+{
+  width: 17rem;
+}
+ul.list
+{
+  list-style: none;
+  color: #ffffff;
+  display: flex;
+}
+li.list-item
+{
+  font-size: 1.7rem;
+  color: #D9A734;
+  margin-left: 4rem;
+}
+button.button-small
+{
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  margin-right:5rem ;
+  background:rgb(255, 80, 95);
+}
+
+
+/* --------------END-------------- */
+/* ----X------ NAVBAR -------X----- */
+/* ----X---------X-----------X---- */
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section[aria-label="hero"]
+{
+  max-width: 1450px;
+  width: 100%;
+  height: 80.1vh;
+  margin: 0 auto;
+  padding-inline: 15rem;
+  padding-top:7rem ;
+}
+h1.hero-heading
+{
+  color: rgb(255, 194, 51);
+  text-align: center;
+  font-size: 11rem;
+  line-height: 10rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+button.button-large
+{
+  display: block;
+  margin: 4rem auto;
+  background: rgb(255, 80, 95);
+  border:none;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2.4rem 7rem;  
+}
+
+img[alt="bottom-logo"]
+{
+  position: fixed;
+  bottom:5rem;
+  right: 7rem;
+  width: 14rem;
+}
+
+/* -----X------------------X------- */
+/* ----X----- END HERO -----X------- */
+/* ----X--------------------X----- */
