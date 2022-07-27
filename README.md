@@ -9,7 +9,7 @@
 
 >I Deployed my Site on Netlify and Vercel. so you can check it out 👇
 <br> [https://restora-muffin.netlify.app](https://restora-muffin.netlify.app)
-<br> [assignment-2-topaz.vercel.app](assignment-2-topaz.vercel.app)
+<br> [https://assignment-2-topaz.vercel.app/](https://assignment-2-topaz.vercel.app/)
 
 ## What I Learned from this Project?
 
